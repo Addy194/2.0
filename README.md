@@ -54,44 +54,21 @@ It helps an operator ask:
 
 ---
 
-# 🖥️ UI Demo
+## 🖥️ Interface Overview
 
-> **Tip:** The screenshots below are full-width and clickable. Click any screenshot to open the image by itself for a larger view.
-
-## Spill Surveillance Dashboard
+### Spill Surveillance Dashboard
 
 The main operational view exposes active investigations, review state, AIS fixes, candidate status, confidence information and alerts.
 
-<p align="center">
-  <a href="docs/ui/surveillance-dashboard.jpeg">
-    <img src="docs/ui/surveillance-dashboard.jpeg" alt="Varuna Netra Spill Surveillance Dashboard" width="100%">
-  </a>
-</p>
-<p align="center"><sub><b>Click the dashboard to open the full-size screenshot.</b></sub></p>
-
-## Live AIS Ingestion
+### Live AIS Ingestion
 
 Varuna Netra supports live AIS ingestion and exposes feed state, messages, stored positions, active vessels, coverage selection and vessel telemetry. The interface is designed to report unavailable coverage rather than fabricate vessels.
 
-<p align="center">
-  <a href="docs/ui/ingestion-live-ais.jpeg">
-    <img src="docs/ui/ingestion-live-ais.jpeg" alt="Varuna Netra Live AIS Ingestion" width="100%">
-  </a>
-</p>
-<p align="center"><sub><b>Click the ingestion screen to open the full-size screenshot.</b></sub></p>
-
-## SIH Judge Walkthrough
+### SIH Judge Walkthrough
 
 The built-in **Run SIH Demo** flow presents the system as a short evidence story:
 
 **Problem → AOI → Sentinel-1 Scene → Spill Candidate → AIS Vessels → Candidate Ranking → Evidence Timeline → Jurisdiction → Provenance → Investigation Case**
-
-<p align="center">
-  <a href="docs/ui/sih-demo.jpeg">
-    <img src="docs/ui/sih-demo.jpeg" alt="Varuna Netra SIH Judge Walkthrough" width="100%">
-  </a>
-</p>
-<p align="center"><sub><b>Click the SIH demo screen to open the full-size screenshot.</b></sub></p>
 
 ---
 
